@@ -10,11 +10,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div style = "background-image = '/static/Back.jpg'>
     <div class="container">
     <nav class="navbar navbar-light bg-light">
       <h3><a style="color:rgb(0, 102, 255)" class="nav-link" href="{{url_for('home')}}">Home</a></h3>
     </nav>
-    <img src = "/static/Rakesh.jpg"/>
       <div class="jumbotron">
         {% block content %}
         {% endblock %}
